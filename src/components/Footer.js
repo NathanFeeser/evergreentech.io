@@ -16,7 +16,7 @@ const Footer = (props) => (
             <h2>Location</h2>
             <dl className="alt">
                 <dt>Address</dt>
-                <dd>6004 Sawgrass Point Dr. &bull; Port Orange, FL 32128 &bull; USA</dd>
+                <dd>Port Orange, FL 32128 &bull; USA</dd>
                 <dt>Phone</dt>
                 <dd>(386) 243-4338</dd>
             </dl>

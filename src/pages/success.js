@@ -1,26 +1,19 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
 import Layout from '../components/layout'
-import Contact from '../components/Contact'
 import Header from '../components/Header'
 
-class Generic extends React.Component {
-  render() {
-
-    return (
-      <Layout>
-        <Helmet title="Generic Page Title" />
+const Success = (props) => (
+    <Layout>
+        <Helmet title="Contact Form Success" />
         <Header />
         <div id="main">
           <section id="content" className="main">
-            <h2>Get In Touch</h2>
-            <Contact />
+            <h2>Thank You</h2>
+            <p>Form submitted successfully. Thanks for contacting us. We'll be in touch very soon.</p>
           </section>
         </div>
       </Layout>
-    )
-  }
-}
+)
 
-export default Generic
+export default Success
