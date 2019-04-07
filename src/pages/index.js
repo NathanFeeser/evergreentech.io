@@ -45,7 +45,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Super Solid Technology</h2>
+                  <h2>Evergreen Technology</h2>
                 </header>
                 <p>At Evergreen Tech we pride ourselves with building secure software that lasts a lifetime.
                   We achieve this by baking updateability into every project. Never get stuck behind dated tech.
@@ -66,15 +66,15 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style1 fa-code"></span>
                 <h3>Verbose Programming</h3>
-                <p>Database-intensive web and desktop applications. Build in accordance with modern coding standards and languages.</p>
+                <p>Custom database-intensive web and desktop applications. Built with modern coding standards and languages.</p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
+                <span className="icon major style3 fa-shield"></span>
                 <h3>Enhanced Security</h3>
                 <p>Every server, desktop, or router we touch gets best-in-class security from the ground up.</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5 fa-line-chart"></span>
                 <h3>Data Reporting</h3>
                 <p>Business intelligence to help grow your operations based on data, not on a whim.</p>
               </li>

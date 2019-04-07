@@ -10,7 +10,7 @@ const Success = (props) => (
         <div id="main">
           <section id="content" className="main">
             <h2>Thank You</h2>
-            <p>Form submitted successfully. Thanks for contacting us. We'll be in touch very soon.</p>
+            <p>Submitted successfully. Thanks for contacting us. We'll be in touch soon.</p>
           </section>
         </div>
       </Layout>
