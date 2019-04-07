@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form name="contact-form" method="POST" action="/success" data-netlify="true" data-netlify-honeypot="name-bot">
+                <form name="contact-form" method="POST" action='/no-cache=1' data-netlify="true" data-netlify-honeypot="name-bot">
 
                     <input type="hidden" name="name-bot" />
 
@@ -22,7 +22,7 @@ const Contact = (props) => (
                     </div>
                     <br />
                     <ul className="actions">
-                        <li><input type="submit" value="Send" /></li>
+                        <li><input type="submit" value="Send" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
