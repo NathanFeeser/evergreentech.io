@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import NavHome from '../components/NavHome'
 
-import battleblocks from '../assets/images/battleblocks.png';
+import battleblocks from '../assets/images/battleblock.png';
 
 class Projects extends React.Component {
   constructor(props) {
