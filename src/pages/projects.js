@@ -59,7 +59,7 @@ class Projects extends React.Component {
                   </p>
                   <footer className="major">
                     <ul className="actions">
-                      <li><Link to="https://www.battleblocks.io" className="button">View BattleBlocks</Link></li>
+                      <li><a href="https://battleblocks.io/#/" className="button" target="_blank">View BattleBlocks</a></li>
                     </ul>
                   </footer>
                 </div>
