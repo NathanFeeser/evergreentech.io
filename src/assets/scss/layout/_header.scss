@@ -39,12 +39,18 @@
 				));
 				@include vendor('transition-delay', '0s');
 				display: block;
-				margin: 0 0 (_size(element-margin) * 0.75) 0;
+				//margin: 0 0 (_size(element-margin) * 0.75) 0;
+				border: solid 1px;
+				display: inline-block;
+				border-radius: 100%;
+				padding: 2.00em;
+				margin: 0 0 2em 0;
+				background-image: linear-gradient(rgb(232, 247, 237), rgb(235, 252, 248));
 
 				img {
 					display: block;
-					margin: 0 auto;
-					max-width: 75%;
+					//margin: 0 auto;
+					//max-width: 75%;
 				}
 			}
 		}

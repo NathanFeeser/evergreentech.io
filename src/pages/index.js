@@ -6,6 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
+import favicon from '../assets/images/favicon.ico';
 
 class Index extends React.Component {
   constructor(props) {
@@ -27,7 +28,11 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Evergreen Tech" />
+        <Helmet title="Evergreen Tech"
+            link={[
+              { rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }
+          ]}
+        />
 
         <Header />
 
@@ -47,13 +52,12 @@ class Index extends React.Component {
                   <h2>Evergreen Technology</h2>
                 </header>
                 <p>At Evergreen Tech we pride ourselves with building secure software that lasts a lifetime.
-                  We achieve this by baking updateability into every project. Never get stuck behind dated tech.
+                  We bake updateability into every project. Never get stuck behind dated tech. Always be in control of your technology.
                 </p>
                 {/* <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul> */}
               </div>
-              {/* <span className="image"><img src={pic01} alt="" /></span> */}
               <span className="icon major style1 fa-pagelines"></span>
             </div>
           </section>
@@ -81,7 +85,7 @@ class Index extends React.Component {
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -118,7 +122,7 @@ class Index extends React.Component {
             This passion leads to excellent results an amazingly poductive work culture.</p>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="/projects" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -132,7 +136,6 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/contact" className="button special">Contact Us</Link></li>
-                {/* <li><Link to="/generic" className="button">Learn More</Link></li> */}
               </ul>
             </footer>
           </section>
