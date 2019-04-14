@@ -46,11 +46,11 @@ class Projects extends React.Component {
             <div class="container">
 
               <div className="row">
-                <div className="col-md-7">
+                <div className="">
                   <span className="image main"><img src={battleblocks} alt="" /></span>
                   {/* <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt=""> */}
                 </div>
-                <div className="col-md-4">
+                <div className="">
                   <h3>Battle Blocks</h3>
                   <p>This was a particularly fun and challenging project. Battle Blocks is a blockchain-based card game, not unlike <a href="https://www.cryptokitties.co/" target="_blank">Crypto Kitties</a>, with the added ability to battle opponents and cooler artwork. 
                     Instead of the traditional relational database such as MySQL or Postgres, we used a blockchain as a backend.
@@ -62,6 +62,18 @@ class Projects extends React.Component {
                       <li><a href="https://battleblocks.io/#/" className="button" target="_blank">View BattleBlocks</a></li>
                     </ul>
                   </footer>
+                </div>
+              </div>
+
+              <hr />
+
+              <div className="row">
+                <div className="">
+                  <h3>Stock Tips</h3>
+                  <p>Stock Tips is a proprietary application we built for a client using the IEX cloud stock data API. It has a mature algorithm used to determine the best time to enter 
+                    the market, when to avoid, and which stocks look like healthy picks based on individual user settings (long term hold vs short gains).
+                    Stock Tips was build using Python, Django, and PostgreSQL.
+                  </p>
                 </div>
               </div>
 
